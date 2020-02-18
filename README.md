@@ -1,8 +1,8 @@
 
-sfddfdfsfd
-## Project Title: fdsdfsdfsdf
-## Author (github user): dsddsfdsf
-### Description: dfsdfssdfsdf
+sdfsdf
+## Project Title: sdfsd
+## Author (github user): fdssdf
+### Description: fsdfsd
 ### Table of Contents:
     Installation.........................pg
     Usage................................pg
@@ -11,14 +11,14 @@ sfddfdfsfd
     Tests................................pg
 
 ### Installation:
-Please use the following command to install dependencies --> **sfdsfdfff**
+Please use the following command to install dependencies --> **sdfsdf**
 ### Usage:
 Refer to the information below before using this repo:
-ffffffffffff
+sdfsfd
 ### Contributing:
 Refere to the information below before contributing to this repo:
-fffffffffffffffff
+sdfsdf
 ### Tests: 
-Please use the following command to run tests --> **ffffffffff**
+Please use the following command to run tests --> **sdfsfd**
 ###Questions:
-    ![image info](response.data.avatar_url)
+    ![image info](https://avatars0.githubusercontent.com/u/57604220?v=4)

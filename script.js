@@ -104,7 +104,7 @@ promptUser()
                 license_badge = `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
             }
     
-            return writeFileAsync("README.md", license_badge + readme_text + user_img);
+            return writeFileAsync("README.md", license_badge + readme_text + "\n" + user_img);
         })
         .then(function() {
             console.log("Successfully wrote to README.md");

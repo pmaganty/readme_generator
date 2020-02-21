@@ -107,7 +107,7 @@ promptUser()
             return writeFileAsync("generated_readme.md", license_badge + readme_text + "\n" + user_img);
         })
         .then(function() {
-            console.log("Successfully wrote to README.md");
+            console.log("Successfully wrote to generated_readme.md");
         })
         .catch(function(err) {
             console.log(err);

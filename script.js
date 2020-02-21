@@ -69,13 +69,13 @@ function generate_readme(answers) {
 ### Installation:
 Please use the following command to install dependencies --> **${answers.dependency_command}**
 ### Usage:
-Refer to the information below before using this repo:
+Refer to the information below before using this repo: \n
 ${answers.usage_info}
 ### Licenses:
-You need the following licenses for this project:
+You need the following licenses for this project: \n
 ${answers.license_type}
 ### Contributing:
-Refere to the information below before contributing to this repo:
+Refere to the information below before contributing to this repo: \n
 ${answers.contribution_info}
 ### Tests: 
 Please use the following command to run tests --> **${answers.run_test_command}**
@@ -104,7 +104,7 @@ promptUser()
                 license_badge = `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
             }
     
-            return writeFileAsync("README.md", license_badge + readme_text + "\n" + user_img);
+            return writeFileAsync("generated_readme.md", license_badge + readme_text + "\n" + user_img);
         })
         .then(function() {
             console.log("Successfully wrote to README.md");
